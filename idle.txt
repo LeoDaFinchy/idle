@@ -18,7 +18,7 @@ Buttons
     
   *sellBrineButton
     name: Sell Brine
-    req:1 brine
+    req:, 1 brine
     on click:lose 1 brine
     on click:gain 1 cash
 
