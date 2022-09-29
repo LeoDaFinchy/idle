@@ -5,6 +5,9 @@ Resources
   *charm
     name: Charm
   
+  *brine
+    name: Brine
+  
 Buttons
   *charmButton
     name: Charm!
@@ -13,6 +16,8 @@ Buttons
 Buildings
   *visitor
     cost: ,10 charm
+    passive: ,0.1 brine
     
   *member
     cost: ,100 charm, 1 visitor
+    passive: ,1.0 brine
