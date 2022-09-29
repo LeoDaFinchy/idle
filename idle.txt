@@ -8,4 +8,4 @@ Resources
 Buttons
   *charmButton
     name: Charm!
-    on click: yield 1 charm
+    on click: yields 1.0 charm
