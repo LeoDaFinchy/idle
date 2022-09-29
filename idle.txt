@@ -75,7 +75,7 @@ Upgrades
     passive:multiply staff yield of charm by 2
   *brineFiltration
     cost:1000 cash
-    passive:multiply brineValue by 2
+    passive:grant 0.1 brineValue
   *brineDistilling
     cost:10000 cash
-    passive:multiply brineValue by 2
+    passive:grant 0.2 brineValue
