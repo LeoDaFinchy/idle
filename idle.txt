@@ -12,7 +12,7 @@ Buttons
 
 Buildings
   *visitor
-    cost: 10 charm
+    cost: ,10 charm
     
   *member
-    cost: 100 charm, 1 visitor
+    cost: ,100 charm, 1 visitor
