@@ -9,3 +9,10 @@ Buttons
   *charmButton
     name: Charm!
     on click:gain 1 charm
+
+Buildings
+  *visitor
+    cost: 10 charm
+    
+  *member
+    cost: 100 charm, 1 visitor
