@@ -4,6 +4,9 @@ Let's make a game!
 Resources
   *charm
     name: Charm
+    
+  *cash
+    name: Cash
   
   *brine
     name: Brine
@@ -12,6 +15,11 @@ Buttons
   *charmButton
     name: Charm!
     on click:gain 1 charm
+    
+  *sellBrineButton
+    name: Sell Brine
+    req:1 brine
+    on click:gain 1 cash, lose 1 brine
 
 Buildings
   *visitor
@@ -21,3 +29,7 @@ Buildings
   *member
     cost:100 charm,1 visitor
     on tick:gain 1 brine
+
+  *regular
+    cost:1000 charm,1 member
+    on tick:gain 10 brine
