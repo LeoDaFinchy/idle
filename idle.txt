@@ -13,7 +13,7 @@ Resources
     
   *brineValue
     name: Brine Value
-    startWith: 0.1
+    start with: 0.1
   
 Buttons
   *charmButton
