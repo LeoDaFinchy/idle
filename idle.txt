@@ -37,9 +37,13 @@ Buildings
     
   *staff
     cost:100 cash
-    on tick:if(cash >= 1)gain 1 charm
-else lose 1 staff
-end
+    on tick:
+      if(cash >= 1)
+        gain 1 charm
+      else
+        lose 1 staff
+      end
+    end
     
 Upgrades
   *towels
