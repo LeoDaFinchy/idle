@@ -35,6 +35,10 @@ Buildings
     cost:1000 charm,1 member
     on tick:gain 10 brine
     
+  *staff
+    cost:1 cash per second
+    on tick:gain 1 charm
+    
 Upgrades
   *towels
     cost:100 cash
