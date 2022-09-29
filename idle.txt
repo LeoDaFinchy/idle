@@ -16,7 +16,6 @@ Buttons
 Buildings
   *visitor
     cost: ,10 charm
-    passive: gain 0.1 brine
     
   *member
     cost: ,100 charm, 1 visitor
