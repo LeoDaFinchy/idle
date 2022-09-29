@@ -19,8 +19,8 @@ Buttons
   *sellBrineButton
     name: Sell Brine
     req:(brine >= 1)
-    on click:lose (brine) brine
     on click:gain (brine) cash
+    on click:lose (brine) brine
 
 Buildings
   *visitor
