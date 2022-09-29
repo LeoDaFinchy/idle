@@ -68,10 +68,10 @@ Upgrades
     cost:5000 cash
     passive:multiply yield of brine by 2
   *staffTraining
-    cost:400 cash
+//    cost:400 cash
     passive:multiply charm yield of staff by 2
   *staffUniforms
-    cost:4000 cash
+//    cost:4000 cash
     passive:multiply charm yield of staff by 2
   *brineFiltration
     cost:1000 cash
@@ -79,3 +79,6 @@ Upgrades
   *brineDistilling
     cost:10000 cash
     passive:grant 0.2 brineValue
+  *brineMarkets
+    cost:800 cash
+    passive:multiply yield of brineSeller by 2
