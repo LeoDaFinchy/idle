@@ -19,7 +19,7 @@ Buttons
   *sellBrineButton
     name: Sell Brine
     req:(brine >= 1)
-    on click:gain (brine) cash
+    on click:gain (brine * 0.1) cash
     on click:lose (brine) brine
 
 Buildings
@@ -34,3 +34,11 @@ Buildings
   *regular
     cost:1000 charm,1 member
     on tick:gain 10 brine
+    
+Upgrades
+  *towels
+    cost:100 cash
+    passive:multiply yield of brine by 2
+  *heaters
+    cost:1000 cash
+    passive:multiply yield of brine by 2
