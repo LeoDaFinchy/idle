@@ -10,6 +10,10 @@ Resources
   
   *brine
     name: Brine
+    
+  *brineValue
+    name: Brine Value
+    startWith: 0.1
   
 Buttons
   *charmButton
@@ -19,7 +23,7 @@ Buttons
   *sellBrineButton
     name: Sell Brine
     req:(brine >= 1)
-    on click:gain (brine * 0.1) cash
+    on click:gain (brine * brineValue) cash
     on click:lose (brine) brine
 
 Buildings
@@ -38,9 +42,18 @@ Buildings
   *staff
     cost:100 cash
     on tick:
-      if ((cash) >= 1)
+      if (cash >= 1)
         gain 1 charm
         lose 1 cash
+      end
+    end
+  
+  *brineSeller
+    cost: 100 cash
+    on tick:
+      if (brine > 1)
+        gain (brineValue * 0.9) cash
+        lose 1 brine
       end
     end
     
