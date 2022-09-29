@@ -36,8 +36,12 @@ Buildings
     on tick:gain 10 brine
     
   *staff
-    cost:1 cash per second
-    on tick:gain 1 charm
+    cost:100 cash
+    on tick:
+      if(cash >= 1)
+        gain 1 charm
+      else
+        lose 1 staff
     
 Upgrades
   *towels
