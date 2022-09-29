@@ -20,4 +20,4 @@ Buildings
   *member
     cost: ,100 charm, 1 visitor
     
-    on tick: gain 1 brine
+    on tick:gain 1 brine
