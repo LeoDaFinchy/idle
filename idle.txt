@@ -2,7 +2,6 @@ Let's make a game!
   name:My Totally Original Game
 
 Resources
-
   *charm
     name: Charm
     
