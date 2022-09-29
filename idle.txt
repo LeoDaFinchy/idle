@@ -37,7 +37,7 @@ Buildings
     
   *staff
     cost:100 cash
-    on tick:
+    on tick:,
       if(cash >= 1)gain 1 charm
       if(cash < 1)lose 1 staff
       if(cash >= 1)lose 1 cash
