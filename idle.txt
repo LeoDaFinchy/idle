@@ -19,4 +19,4 @@ Buildings
     
   *member
     cost: ,100 charm, 1 visitor
-    passive: gain 1.0 brine
+    on tick: gain 1.0 brine
