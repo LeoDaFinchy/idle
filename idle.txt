@@ -52,21 +52,30 @@ Buildings
     cost:100 cash
     on tick:
       if (brine > 1)
-        gain (brineValue * 0.25) cash
+        gain (brineValue) cash
         lose 1 brine
       end
     end
     
 Upgrades
   *towels
-    cost:100 cash
+    cost:50 cash
+    passive:multiply yield of brine by 2
+  *sportsDrinks
+    cost:500 cash
     passive:multiply yield of brine by 2
   *heaters
-    cost:1000 cash
+    cost:5000 cash
     passive:multiply yield of brine by 2
   *staffTraining
+    cost:400 cash
+    passive:multiply staff yield of charm by 2
+  *staffUniforms
+    cost:4000 cash
+    passive:multiply staff yield of charm by 2
+  *brineFiltration
     cost:1000 cash
-    passive:increase staff yield of charm by 2
-  *brineSellerTraining
-    cost:1000 cash
-    passive:increase brineSeller yield of cash by 2
+    passive:multiply brineValue by 2
+  *brineDistilling
+    cost:10000 cash
+    passive:multiply brineValue by 2
