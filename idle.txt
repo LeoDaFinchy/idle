@@ -42,6 +42,7 @@ Buildings
         gain 1 charm
       else
         lose 1 staff
+      end
     
 Upgrades
   *towels
