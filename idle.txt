@@ -1,12 +1,11 @@
 Let's make a game!
   name:My Totally Original Game
   
-Buttons
-  *charmButton
-    name: Charm!
-    on click: yield 1 charm
-
 Resources
   *charm
     name: Charm
   
+Buttons
+  *charmButton
+    name: Charm!
+    on click: yield 1 charm
