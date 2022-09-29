@@ -40,6 +40,7 @@ Buildings
     on tick:
       if ((cash) >= 1)
         gain 1 charm
+        lose 1 cash
       end
     end
     
