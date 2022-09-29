@@ -49,10 +49,10 @@ Buildings
     end
   
   *brineSeller
-    cost: 100 cash
+    cost:100 cash
     on tick:
       if (brine > 1)
-        gain (brineValue * 0.9) cash
+        gain (brineValue * 0.25) cash
         lose 1 brine
       end
     end
@@ -64,3 +64,9 @@ Upgrades
   *heaters
     cost:1000 cash
     passive:multiply yield of brine by 2
+  *staffTraining
+    cost:1000 cash
+    passive:increase staff yield of charm by 2
+  *brineSellerTraining
+    cost:1000 cash
+    passive:increase brineSeller yield of cash by 2
